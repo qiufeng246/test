@@ -1,5 +1,5 @@
 from microbit import spi, pin16, pin14, pin15, Image
-# CS：L；RST:PIN14;A0(D0):PIN13;CLK:PIN15;
+# CS：L;/RST:PIN14;/A0(D0):PIN16;/CLK:PIN13;/MOSI:PIN15;
 
 class SSD1306:
     def __cmd(self, c):
